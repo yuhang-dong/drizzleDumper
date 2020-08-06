@@ -1,6 +1,15 @@
 drizzleDumper
 ===
-  
+
+本程序在我做 ISC2016训练赛——phrackCTF 的 CrazyAndroid 时找到的， 可以成功从此CTF题目中， 被360老壳加固后的CrazyAndiord.apk，成功脱壳。
+
+参考环境：
+* Android 5.1
+
+## 与源Git仓库不同的地方
+
+1. 修复了在 dump 出 dex 后，不停的重复 dump 的 bug
+2. 修改了 makefile 中的 ABI, armeabi -> armeabi-v7a
           
 简介
 ===
